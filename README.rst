@@ -14,6 +14,26 @@
 ドキュメント
 -------------------------
 
+基本的な使用方法
+-------------------------
+
+  .. code-block:: python
+
+      from mk_blender_src import create,BallAndStick,SpaceFilling,Stick,Animation
+      from ase.io import read
+
+      atoms = read("CONTCAR") # CONTCAR is vasp-format file
+      create("BallAndStick.py",BallAndStick(atoms))
+      
+`BallAndStick.py` をBlender上で実行すると,Ball-Stickスタイルの3Dモデルが作成される.
+
+スタイルは
+
+- BallAndStick (球棒)
+- SpaceFilling (空間充填)
+- Stick (棒)
+- Animation (アニメーション(空間充填で再現される))
+
 
 インポート可能な構造ファイル
 ------------------------------
