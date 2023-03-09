@@ -131,3 +131,4 @@ dmypy.json
 build/
 dist/
 mk_blender_scr.egg-info/
+grrmpy.egg-info/
