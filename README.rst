@@ -6,6 +6,13 @@
 | cif,xyz,VASPの構造ファイルをBeldnerに取り込むためのライブラリ
 | Blender上で動作するPythonスクリプトを生成する.
 
+Webアプリ版
+------------------------------------
+基本的には ``mk-blender-scr`` をインストールせずともWebアプリのみを使用すれば良い.
+
+| `アプリはこちら <https://shimi-lab-makeblenderscriptapp-app-vrendi.streamlit.app/>`_
+| `MakeBlenderScriptApp(GitHub) <https://github.com/shimi-lab/MakeBlenderScriptApp>`_
+
 インストール
 -----------------------
 
