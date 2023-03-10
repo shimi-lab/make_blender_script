@@ -11,7 +11,7 @@ from pathlib import Path
 
 from grrmpy.blender import default 
 
-def make_py_script(file,Styles):
+def create(file,Styles):
     """Belnder用のPythonスクリプトを作成する
 
     Parameters:
