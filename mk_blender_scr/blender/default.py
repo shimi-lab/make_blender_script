@@ -1,4 +1,4 @@
-from make_blender_script.blender.functions import read_elementsini,read_csv,rgba2hex
+from mk_blender_scr.blender.functions import read_elementsini,read_csv,rgba2hex
 from pathlib import Path
 # Animation
 step=3
