@@ -1,6 +1,6 @@
-from grrmpy.blender.make_pyscript import make_py_script,BallAndStick,Stick,SpaceFilling,Animation
+from mk_blender_scr.blender.make_pyscript import create,BallAndStick,Stick,SpaceFilling,Animation
 
 __all__ = [
-    "make_py_script",
+    "create",
     "BallAndStick","Stick","SpaceFilling","Animation"
 ]

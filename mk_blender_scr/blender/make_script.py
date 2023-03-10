@@ -9,7 +9,7 @@ import zipfile
 import pickle
 from pathlib import Path
 
-from grrmpy.blender import default 
+from mk_blender_scr.blender import default 
 
 def create(file,Styles):
     """Belnder用のPythonスクリプトを作成する

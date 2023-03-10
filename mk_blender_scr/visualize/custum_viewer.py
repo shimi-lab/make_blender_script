@@ -21,9 +21,9 @@ from nglview.component import ComponentViewer
 from nglview.color import ColormakerRegistry
 
 # USER
-from grrmpy.visualize.functions import (update_tooltip_atoms,generate_js_code,
+from mk_blender_scr.visualize.functions import (update_tooltip_atoms,generate_js_code,
                                         get_struct,add_force_shape,rotate_view,spin_view)
-from grrmpy.visualize.color import default,vesta,jmol
+from mk_blender_scr.visualize.color import default,vesta,jmol
 
 class View(NGLDisplay):
     """

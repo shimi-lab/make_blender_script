@@ -6,8 +6,9 @@ def main():
 
 @main.command('docs')
 def document():
-    from streamlit import util
-    util.open_browser("https://shimi-lab.github.io/mk-blender-scr_Document/")
+    import webbrowser
+    url = "https://shimi-lab.github.io/mk-blender-scr_Document/"
+    webbrowser.open(url, new=0, autoraise=True)
     
 if __name__ == '__main__':
     main()
