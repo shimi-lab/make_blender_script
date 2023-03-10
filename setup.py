@@ -10,8 +10,8 @@ with open('README.rst',encoding='utf-8') as f:
 setup(
     name='mk-blender-scr',
     packages=find_packages(),
-    install_requirements=install_requirements, 
-    version='1.0.2',
+    install_requires=install_requirements, 
+    version='1.0.3',
     author='Kato Taisetsu',
     url='https://shimi-lab.github.io/mk-blender-scr_Document/',
     description='Create a Python script for Blender from Atoms of ASE.',
