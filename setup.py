@@ -11,7 +11,7 @@ setup(
     name='mk-blender-scr',
     packages=find_packages(),
     install_requirements=install_requirements, 
-    version='1.0.1',
+    version='1.0.2',
     author='Kato Taisetsu',
     url='https://shimi-lab.github.io/mk-blender-scr_Document/',
     description='Create a Python script for Blender from Atoms of ASE.',
