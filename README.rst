@@ -20,6 +20,7 @@ Webアプリ版
 
 ドキュメント
 -------------------------
+`ドキュメントはこちら <https://shimi-lab.github.io/mk-blender-scr_Document/>`_ .
 
 基本的な使用方法
 -------------------------
@@ -41,7 +42,7 @@ Webアプリ版
 - Stick (棒)
 - Animation (アニメーション(空間充填で再現される))
 
-より詳細な使用方法は `ドキュメント<>`_ を参照する.
+より詳細な使用方法は `ドキュメント <https://shimi-lab.github.io/mk-blender-scr_Document/>`_ を参照する.
 
 
 インポート可能な構造ファイル
