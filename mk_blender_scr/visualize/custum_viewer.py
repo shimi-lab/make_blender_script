@@ -177,7 +177,7 @@ class View(NGLDisplay):
             self.gui.file_extention = Dropdown(options=[(val,key) for key,val in self.extention_dict.items()],value=1,layout = Layout(width='70px'))
         else:# list of Atoms or Traj
             self.gui.filename_text = Text(value="Images", description="ファイル名: ",layout = Layout(width='200px'))
-            self.extention_dict = {0:'traj',1:'traj+',2:'cif',3:'cif+',4:'xyz',5:'xyz+',6:'html',7:'html+',8:"vasp",9:'png'}
+            self.extention_dict = {0:'traj',1:'traj+',2:'cif',3:'cif+',4:'xyz',5:'xyz+',6:'html+',7:"vasp",8:'png'}
             self.gui.file_extention = Dropdown(options=[(val,key) for key,val in self.extention_dict.items()],value=1,layout = Layout(width='70px'))
         ##ダウンロード##
         self.gui.download = Button(description='PNGをダウンロード',
@@ -274,7 +274,7 @@ class View(NGLDisplay):
         elif self.extention_dict[self.gui.file_extention.value] == "xyz+":
             write(f"{name}.xyz",self.atoms)
         elif self.extention_dict[self.gui.file_extention.value] == "html":
-            nv.write_html(f"{name}.html",self.view,tuple([self.view.frame]))
+            nv.write_html(f"{name}.html",self.view)
         elif self.extention_dict[self.gui.file_extention.value] == "html+":
             nv.write_html(f"{name}.html",self.view,(0,len(self.atoms)-1))
         elif self.extention_dict[self.gui.file_extention.value] == "vasp":
