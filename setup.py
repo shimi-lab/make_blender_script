@@ -11,8 +11,11 @@ long_description = """
 | cif,xyz,VASPの構造ファイルをBeldnerに取り込むためのライブラリ
 | Blender上で動作するPythonスクリプトを生成する.
 
+
 ドキュメント
 -------------------------
+
+https://shimi-lab.github.io/mk-blender-scr_Document/
 
 
 インポート可能な構造ファイル
@@ -50,7 +53,7 @@ setup(
     install_requires=['ase', 'nglview', 'jinja2','ipywidgets'], 
     version='1.0.1',
     author='Kato Taisetsu',
-    url='',
+    url='https://shimi-lab.github.io/mk-blender-scr_Document/',
     description='Create a Python script for Blender from Atoms of ASE.',
     long_description=long_description,
     long_description_content_type='text/x-rst', # 'text/plain', 'text/x-rst', 'text/markdown'
