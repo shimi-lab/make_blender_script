@@ -16,7 +16,7 @@ setup(
         "ipython",
         "numpy"
         ], 
-    version='1.0.8',
+    version='1.0.9',
     author='Kato Taisetsu',
     url='https://shimi-lab.github.io/mk-blender-scr_Document/',
     description='Create a Python script for Blender from Atoms of ASE.',
