@@ -1,4 +1,5 @@
 include requirements.txt
-recursive-include mk_blender_scr default_color.ini
-recursive-include mk_blender_scr vesta_color.ini
-recursive-include mk_blender_scr jmol_color.csv
+include default_color.ini
+include vesta_color.ini
+include mk_blender_scr 
+include jmol_color.csv

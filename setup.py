@@ -24,9 +24,4 @@ setup(
     long_description_content_type='text/x-rst', # 'text/plain', 'text/x-rst', 'text/markdown'
     keywords='blender ase',
     entry_points={"console_scripts": ["mk-blender-scr = mk_blender_scr.command.cli:main"]},
-    data_files=[('', ['requirements.txt',
-                      'default_color.ini',
-                      'vesta_color.ini',
-                      'jmol_color.csv'])
-                ],
 )
